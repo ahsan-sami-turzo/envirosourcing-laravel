@@ -1,0 +1,42 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateEthicsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('ethics', function (Blueprint $table) {
+            $table->id();
+            $table->string('title')->nullable();
+            $table->string('subtitle')->nullable();
+            $table->string('ethics_image')->nullable();
+            $table->string('ethics_codeofconduct_title')->nullable();
+            $table->string('ethics_codeofconduct_image')->nullable();
+            $table->string('description_title_1')->nullable();
+            $table->text('description_1')->nullable();
+            $table->string('description_title_2')->nullable();
+            $table->text('description_2')->nullable();
+            $table->string('slug')->nullable();
+            $table->tinyInteger('status')->default(1);
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('ethics');
+    }
+}

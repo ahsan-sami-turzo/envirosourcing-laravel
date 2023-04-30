@@ -1,0 +1,1234 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-size: 16px;
+    color: #5a5a5a;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.bdrB-0 {
+    border-bottom: 0;
+}
+
+.main-bg-color {
+
+    /*background: rgb(88 170 13 / 70%);*/
+    background-image: linear-gradient(to left, #207222d9, #f4f9f0a6);
+}
+
+.location-bg-color {
+    background: rgb(88 170 13 / 70%);
+}
+
+.body-bg-color {
+    /*background-color: #75ae1dfa;*/
+    background-image: linear-gradient(to bottom, #f4f9f0a6, #207222d9);
+
+}
+
+.main-title-color {
+    color: rgb(117 174 29 / 50%);
+    font-weight: bold;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.main-title-color-two {
+    color: #5a5a5a;
+    font-weight: bold;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.gray-color-one {
+    background: rgba(51, 51, 51, 0.041);
+}
+
+.gray-color-two {
+    background: #eee;
+}
+
+.height-460 {
+    height: 460px;
+    background: transparent;
+    overflow: hidden;
+}
+
+.details-btn {
+    padding: 15px 50px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 40px;
+
+}
+
+.details-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.h-65 {
+    height: 65vh;
+}
+
+.pR-0 {
+    padding-right: 0;
+}
+
+.bg-color-1 {
+    background-color: #c7c3c2;
+}
+
+.bg-color-2 {
+    background-color: #838080;
+}
+
+.bg-color-3 {
+    background-color: #935851;
+}
+
+.bg-color-4 {
+    background-color: #786E62;
+}
+
+.bg-color-5 {
+    background-color: #292B2B;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.color-title-green {
+    color: #207222d9 !important;
+}
+
+.logo-img img {
+    height: 50px;
+}
+
+.custom-nav li a {
+    color: #333 !important;
+}
+
+.banner-section {
+    height: 100vh;
+    width: 100%;
+}
+
+.banner-overly {
+    height: 100vh;
+    padding: 200px 100px 0 100px;
+
+
+}
+
+/*.banner-bg-image{*/
+/*    z-index: 0;*/
+/*    padding: 300px 0 200px ;*/
+/*}*/
+.banner-title {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 65%;
+    z-index: 9999;
+    margin-top: 40px;
+}
+
+.banner-title h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    line-height: 70px;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.banner-sub-title p {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #444;
+}
+
+.top-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.custom-nav > li > a {
+    color: #333;
+    padding: 10px 15px;
+}
+
+/* .dorp-one{
+    display: none;
+ }  */
+
+/* .custom-nav li a:hover .dorp-one li a{
+    color: red !important;
+   display: block !important;
+} */
+
+.onScroll {
+    /*box-shadow: 0 0 10px #f4f9f0a6;*/
+    background-image: linear-gradient(to left, #207222d9, #f4f9f0a6);
+    z-index: 9999;
+    color: #fff !important;
+
+}
+
+.logo-img img {
+    height: 50px;
+}
+
+.main-nav li a {
+    color: #000000d6;
+    font-weight: 700;
+}
+
+#about {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.about-title-rotate h5 {
+    font-size: 50px;
+    letter-spacing: 20px;
+    text-transform: lowercase;
+    font-weight: bold;
+
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.about-image {
+    height: 65vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top center;
+}
+
+/*.about-title-text {
+
+}*/
+
+.about-text {
+    padding: 50px;
+}
+
+.about-text > p {
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+}
+
+.choose_us_title {
+    padding: 20px 100px;
+}
+
+.choose_us_title p span font {
+    font-size: 18px;
+}
+
+.about-text .v-center {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 80px 30px;
+}
+
+.about-box-height {
+    height: 450px !important;
+    overflow: hidden;
+}
+
+.about-symbol {
+    font-size: 200px;
+    line-height: 0;
+}
+
+.about-symbol .about-symbol_1 {
+    margin-right: 80px;
+}
+
+.about-symbol .about-symbol_2 {
+    color: #cca083;
+    margin-top: 26px;
+    margin-left: 80px;
+}
+
+.about-text h3 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    padding-bottom: 20px;
+    color: #207222d9;
+}
+
+.about-primary {
+    background: #5a5a5a;
+    text-transform: lowercase;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.about-primary:hover {
+    background: #5a5a5a;
+    color: #fff;
+    opacity: .7;
+}
+
+.counter-block.is--title {
+    text-align: left;
+    padding: 70px 0 0;
+}
+
+
+
+.section.section-counters {
+    padding: 60px 60px 0;
+}
+
+.section {
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* .section .v-center {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 50px;
+} */
+.counter-block.is--title {
+    text-align: left;
+    padding: 30px 0 0;
+}
+
+.counter-block {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    font-family: "Playfair Display", sans-serif;
+    padding: 10px;
+    height: 225px !important;
+}
+
+.counter-border {
+    border: 1px solid #FFF;
+    padding: 30px;
+    height: 205px !important;
+}
+
+.counter-block p {
+    font-size: 12px;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.title-rotate_2 {
+    position: absolute;
+    left: 120px;
+    -webkit-transform: rotate(
+        90deg);
+    -webkit-transform-origin: left top;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left top;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left top;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left top;
+    transform: rotate(
+        90deg);
+    transform-origin: left top;
+    white-space: nowrap;
+    z-index: 9;
+    border-top: 10px solid #c6c3c1;
+    width: 485px;
+    padding-top: 20px;
+}
+
+.title-rotate_2 h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about-box-img {
+    height: 485px;
+    width: 100%;
+    background-position: bottom left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.list-numbers {
+    counter-reset: section;
+}
+
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-numbers li {
+    padding: 25px 0 6px 32px;
+}
+
+.list-numbers li:before {
+    counter-increment: section;
+    content: counter(section);
+    position: absolute;
+    font-size: 28px;
+    color: #BFC0C0;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 900;
+    margin-left: -40px;
+    margin-top: -4px;
+}
+
+.service {
+    position: relative;
+}
+
+.box-service {
+    padding: 0 60px 0 50px;
+}
+
+.service-title h3 {
+    font-size: 50px;
+
+}
+
+.section-foundation {
+    padding: 60px;
+}
+
+.section-foundation ul {
+    display: block;
+    overflow: hidden;
+
+}
+
+.section-foundation ul li {
+    float: left;
+    width: calc(25% - 5px);
+    padding: 0 10px;
+
+
+}
+
+.service-card {
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+
+    margin-bottom: 30px;
+    background-color: #FFF;
+}
+
+.section-foundation .service-card .card-bg {
+    height: 400px;
+}
+
+.service .card-bg {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.section-foundation .service-card .card-body {
+    padding: 20px 0;
+}
+
+.section-foundation .card-title {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    font-size: 24px;
+    padding-top: 35px;
+    color: #fff;
+}
+
+.section-foundation .card-text strong {
+    font-family: 'Playfair Display', serif;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#product {
+    background: rgb(204 199 199 / 7%);
+    position: relative;
+    /* overflow-x: hidden; */
+}
+
+.showroom .showroom-box {
+    padding: 0px 5px 0 150px;
+}
+
+.showroom-title h3 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.showroom .showroom-container {
+    margin-top: 20px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.showroom .showroom-container .showroom-country-name {
+    float: left;
+    width: calc(33.33333333% - 23px);
+    margin: 10px;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+
+.showroom .showroom-container .showroom-country-name:nth-child(1) {
+    background: #9c958d;
+}
+
+.showroom .showroom-container .showroom-country-name:nth-child(2) {
+    background: #424242;
+}
+
+.showroom .showroom-container .showroom-country-name:nth-child(3) {
+    background: #a0a0b5;
+}
+
+.showroom .showroom-container .showroom-country-name:nth-child(4) {
+    background: #8b8b8c;
+}
+
+.showroom .showroom-container .showroom-country-name:nth-child(5) {
+    background: #54576c;
+}
+
+.showroom .showroom-container .showroom-country-name:nth-child(6) {
+    background: #b5afa9;
+}
+
+.showroom-box-bottom {
+    text-align: right;
+    margin-right: 20px;
+}
+
+/* .showroom-box-bottom-img{
+    height: 235px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    margin-left: 10px;
+    background-image: url(http://www.synergiesworldwide.com/wp-content/uploads/2019/03/img-showroom1-1.jpg);
+} */
+.showroom-box-bottom .showroom-box-bottom-title h5 {
+    font-family: "Arial", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 25px 0;
+}
+
+.product-box {
+    width: 100%;
+    height: 220px;
+    float: left;
+    position: relative;
+}
+
+.product-box img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.product-box-overly {
+    position: absolute;
+    background: rgba(41, 148, 6, 0.76);
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+}
+
+.product-box-overly h4 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.product-all-btn a {
+    color: rgba(35, 126, 5, 0.76);
+    font-weight: 700;
+}
+
+
+.clients {
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 60px 0;
+    background-size: cover;
+    background-image: url(http://synergiesworldwide.com/wp-content/uploads/2019/03/bg-clients.jpg);
+}
+
+.client-title h3 {
+    color: #FFF;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.client-logo .list-inline .logo-image img {
+    max-width: 100%;
+}
+
+.ethics {
+    position: relative;
+    padding: 60px 60px 0 !important;
+    /* overflow-x: hidden; */
+}
+
+.ethics-title .ethics-background {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 45%, rgb(117 174 29 / 98%), rgb(117 174 29 / 98%));
+
+    padding: 4px;
+    /* display: inline-block; */
+    text-transform: uppercase;
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.ethics-title .ethics-background::first-letter {
+    font-size: 40px;
+
+}
+
+.ethics-background span {
+    font-size: 40px;
+}
+
+.ethics-padding {
+    padding: 25px 50px -1px 120px;
+}
+
+.ethics-padding-right {
+    padding: 50px 0 0 0;
+}
+
+.ethics-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.ethics-image img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.ethics-title p {
+    margin: 20px auto;
+    max-width: 100% !important;
+    font-size: 14px;
+    line-height: normal;
+    text-align: justify;
+}
+
+.ethics-sub-text p {
+
+    max-width: 100% !important;
+    margin: 0 0 20px 0 !important;
+
+}
+
+.ethics-title p strong {
+    font-family: 'Playfair Display', serif;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.ethics-cover-image {
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.ethics-sub-text p {
+    margin: 20px auto;
+    max-width: 315px;
+    font-size: 14px;
+    line-height: normal;
+    text-align: left;
+
+}
+
+.ethics-sub-text a {
+    background: #5a5a5a;
+    text-transform: lowercase;
+    color: #fff;
+    letter-spacing: 3px;
+    padding: 10px 15px;
+    margin: 20px auto;
+
+    text-align: left;
+}
+
+.ethics-right-title h3 {
+    font-size: 22px;
+}
+
+.ethics-right-image-two {
+    width: 100%;
+    height: 285px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.ethics-right-image-text {
+    left: 50%;
+    padding: 0;
+    color: #232323;
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.ethics-right-image-text h3 {
+    font-size: 30px;
+    /*border-top: 1px solid #232323;*/
+    /*border-bottom: 1px solid #232323;*/
+    padding: 20px 0;
+    font-weight: 900;
+}
+
+.ethics-right-image-text p {
+    text-align: center;
+}
+
+.products {
+    position: relative;
+    padding: 0 60px 0 100px;
+}
+
+.product-nav-list ul {
+    margin-left: 7px;
+}
+
+.product-nav-list ul li {
+    margin-bottom: 10px;
+    list-style-type: square;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.product-nav-list ul li a img {
+    width: 15px;
+    height: 15px;
+}
+
+.product-nav-list ul li a span {
+    font-size: 16px;
+    color: #5a5a5a;
+}
+
+/*.company-name ul li a img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #00000021;
+    padding: 2px;
+    object-fit: contain;
+    border-radius: 50%;
+}*/
+.company-name > .media > img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #00000021;
+    padding: 2px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.sis-title h5 {
+    font-size: 24px;
+    margin-top: 10px !important;
+    color: #5a5a5a;
+}
+
+.company-name ul li a span {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #5a5a5a;
+    margin-left: 10px;
+}
+
+.management {
+    position: relative;
+
+}
+
+.box {
+    padding: 0 60px 0 100px;
+}
+
+.management-img {
+    margin: 0 0 30px;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.management-bg {
+
+    width: 100%;
+    height: 200px;
+
+
+}
+
+.management-img .card-body {
+    background: rgba(35, 104, 106, .8);
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+}
+
+.management-img:hover .card-body {
+    bottom: 0;
+    opacity: 1;
+    -webkit-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+}
+
+.management-img .card-body .card-title {
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Arial", "Helvetica", sans-serif;
+    margin-bottom: 0;
+}
+
+.management-img .card-body .card-text {
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.management-img .card-body a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
+
+.management-bg-people {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 400px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.industry {
+    position: relative;
+    padding-bottom: 100px !important;
+}
+
+.industry-block {
+    width: 100%;
+    height: 300px;
+    background: rgba(117, 174, 29, 0.98039);
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.industry-block img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.industry-block-text {
+
+    position: absolute;
+    padding: 20px;
+    max-width: 80%;
+    margin: 10px;
+    color: #fff;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: bold;
+    top: 0;
+}
+
+.industry-block-text p {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Playfair Display", sans-serif;
+
+}
+
+.industry-block-btn {
+    background: rgba(255, 255, 255, .8);
+    position: absolute;
+    padding: 8px;
+    max-width: 70%;
+
+    color: #000;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+    bottom: 0;
+}
+
+.industry-block-btn p {
+    font-size: 12px;
+    color: #000;
+    font-family: "Playfair Display", sans-serif;
+
+}
+
+#news {
+    position: relative;
+}
+
+.news-title h3 {
+    font-size: 46px;
+}
+
+.news-block {
+    width: 90% !important;
+    border: 1px solid rgba(170, 170, 170, 0.281);
+    margin-bottom: 20px;
+}
+
+.news-image-box {
+    width: 100%;
+    max-height: 200px;
+
+
+}
+
+.news-image-box img {
+    width: 100%;
+    max-height: 200px;
+
+}
+
+.news-block-title {
+    padding: 10px 15px;
+    color: #000;
+}
+
+.news-block-title h5 {
+    color: #000;
+}
+
+.news-block-title p {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.country-list li a {
+    padding: 10px 10px;
+    display: inline-block;
+
+    text-transform: lowercase;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+#footer {
+    background: #5a5a5a;
+}
+
+.footer-title h3 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.footer-nav a {
+    color: #FFF;
+    text-transform: capitalize;
+    padding: 5px 0;
+    opacity: .9;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+}
+
+#footerCopy {
+    background: #5a5a5a;
+    border-top: 1px solid #aaa;
+}
+
+.footerCopy p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footerCopy p a {
+    color: #fff;
+    font-size: 16px;
+}
+
+/*
+#######
+#######
+#######
+##############
+#######
+#######
+##############
+#######
+#######
+#######
+##############about-page##############
+#######
+#######
+#######
+##############
+#######
+#######
+##############
+#######
+#######
+#######
+*/
+.about-page {
+    /*height: 100vh;*/
+    /*position: relative;*/
+}
+
+.about-page-bg {
+    background: url("../images/Link page-design-01.png") no-repeat right center /contain;
+    height: 100vh;
+
+}
+
+.about-logo-area {
+    padding: 100px 0 10px 50px;
+}
+
+.about-page-logo img {
+    height: 120px;
+}
+
+.about-page-title {
+    padding-left: 0;
+}
+
+.about-page-title h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #367338;
+}
+
+.about-page-subtitle h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #367338;
+}
+
+.about-page-bg-1 {
+    position: relative;
+    margin: 120px auto 0 auto;
+    height: 450px;
+    background-image: linear-gradient(to left, #76BF43, #337136);
+    width: 450px;
+    border-radius: 15px;
+    border: 15px solid #000;
+}
+.gray-overly{
+    margin: 10% auto ;
+    height: 80%;
+    background: #A7A9AC;
+    width: 80%;
+    border-radius: 35px;
+}
+.gray-overly img{
+    border-radius: 35px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.we-offer-width {
+    width: 100%;
+}
+
+.product-category-name span {
+    padding: 10px 75px;
+    background-image: linear-gradient(to right, #357137, #74BD43);
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.category-product-card {
+    text-align: right;
+    box-shadow: 7px 6px 12px rgb(213 213 213 / 58%);
+    border-radius: 15px;
+    max-width: 95%;
+    height: 300px;
+    padding: 5%;
+    margin: 3% auto;
+    position: relative;
+
+}
+
+.product-category-overly {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(53, 113, 55, 0.72), #74BD43);
+    left: 0;
+    color: #fff;
+    padding: 8px 0;
+}
+
+.company-contact-details h2 {
+    color: #367338;
+    font-size: 40px;
+}
+
+.company-contact-details h3 {
+    color: #367338;
+    font-size: 30px;
+}
+
+.about-title-rotate {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    -webkit-transform: rotate(
+        90deg);
+    -webkit-transform-origin: left top;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left top;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left top;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left top;
+    transform: rotate(
+        90deg);
+    transform-origin: left top;
+    white-space: nowrap;
+    z-index: 9;
+}
+.footer-social.nav a {
+    width: 40px !important;
+    height: 40px !important;
+
+}
+.nav a > i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.whatsapp-bg{
+    background: #25D366;
+ /*   background-image: linear-gradient(to left, rgba(0, 115, 15, 0.99), rgb(35, 159, 3));*/
+}
+.facebook-bg{
+    background-image: linear-gradient(to left, rgba(9, 68, 217, 0.85), rgb(59, 124, 243));
+}
+.youtube-bg{
+    background-image: linear-gradient(to left, rgba(154, 0, 12, 0.85), rgb(232, 0, 0));
+}
+.linkedin-bg{
+    background-image: linear-gradient(to left, rgb(41, 136, 250), rgb(87, 181, 250));
+}
+.twitter-bg{
+    background-image: linear-gradient(to left, #1B99EE, #0197ff);
+}
